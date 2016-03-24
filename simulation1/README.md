@@ -1,10 +1,10 @@
 THE PROGRAM SIMULATES THE NEXT GRAPHICAL (CLIENT-SERVER) SITUATION:
-                                        ______
-                                       /       SERVER 1
-                                      / 
-EXTERNAL PETITIONS---------BUFFER------------- SERVER 2
-                                      \           .
-                                       \______ SERVER N
+                                     
+                                              
+                                       
+EXTERNAL PETITIONS---------BUFFER-------------SERVER 1, SERVER 2...SERVER N
+                                                
+                                      
 
 THE COMPILATION OF THE PROGRAM IS:
 
@@ -13,7 +13,7 @@ javac main.java FEL.java
 
 THE EXECUTION OF THE PROGRAM IS AS FOLLOWS:
 
-java main <entriesFile> <number of servers> <buffer size>
+java main entriesFile numbeOfServers bufferSize
 
 THE ENTRIES FILE MUST CONTAIN ON EACH LINE THE ABSOLUTE PETITION INSTANT AND THE SERVICE TIME OF THAT PETITION:
 
